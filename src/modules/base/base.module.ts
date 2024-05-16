@@ -1,7 +1,7 @@
 import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
-import { BaseController } from '../controller/base.controller';
-import { BaseService } from '../service/base.service';
-import { BaseMiddleware } from '../middleware/base.middleware';
+import { BaseController } from './controller/base.controller';
+import { BaseService } from './service/base.service';
+import { BaseMiddleware } from './middleware/base.middleware';
 
 @Module({
   imports: [],
