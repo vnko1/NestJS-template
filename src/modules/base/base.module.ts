@@ -1,8 +1,6 @@
-import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
+import { MiddlewareConsumer, Module, NestModule } from "@nestjs/common";
 
-import { BaseService } from './service/base.service';
-import { BaseMiddleware } from './middleware/base.middleware';
-import { BaseController } from './controller/base.controller';
+import { BaseService, BaseMiddleware, BaseController } from "src/modules/base";
 
 @Module({
   imports: [],
