@@ -2,11 +2,11 @@
 
 // import { AppService } from '../app/app.service';
 
-// import { ModelServiceInterface } from './model.interface';
+// import { InstanceInterface } from './instance.interface';
 
 // export abstract class InstanceService<TModel extends Model>
 //   extends AppService
-//   implements ModelServiceInterface<TModel>
+//   implements InstanceInterface<TModel>
 // {
 //   constructor(private readonly model: ModelStatic<TModel>) {
 //     super();
