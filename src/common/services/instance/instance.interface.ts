@@ -1,4 +1,3 @@
-
 // export interface InstanceInterface<T> {
 //   add(data: any, opt?: CreateOptions): Promise<T>;
 
