@@ -1,9 +1,9 @@
 import { ArgumentsHost, HttpStatus } from "@nestjs/common";
 
 export abstract class AppService {
-  constructor() { }
+  constructor() {}
 
-    protected exceptionResponse(host: ArgumentsHost) {
+  protected exceptionResponse(host: ArgumentsHost) {
     const ctx = host.switchToHttp();
     const response = ctx.getResponse();
     const request = ctx.getRequest();
